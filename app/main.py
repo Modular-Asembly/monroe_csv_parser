@@ -20,6 +20,8 @@ app.add_middleware(
 
 from app.api.upload_csv import router
 app.include_router(router)
+from app.api.login import router
+app.include_router(router)
 
 # Database
 
